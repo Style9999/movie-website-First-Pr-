@@ -60,7 +60,47 @@ body
 .profile-container
 {
     flex:2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
+}
+
+
+.profile-text-container
+{
+    margin: 0 20px;
+    display: flex;
+}
+
+.toggle
+{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+border-radius: 30px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+}
+
+.toggle-ball
+{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.toggle-icon
+{
+    color: goldenrod;
+    
 }
 .profile-picture
 {
