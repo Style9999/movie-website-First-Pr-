@@ -115,12 +115,14 @@ position: relative;
 .sidebar
 {
     position: fixed;
-    height: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
     width: 50px;
     background-color: black;
         display: flex;
         flex-direction: column;
-        padding-top: 70;
+        padding-top: 70px;
         align-items: center;
 
 }
@@ -186,7 +188,7 @@ position: relative;
 }
 .title-movie
 {
-    padding: 1 10px;
+    padding: 1px 10px;
     font-size: 32px;
     font-weight: bold;
 
@@ -274,4 +276,59 @@ position: relative;
     opacity: 0.5;
     cursor: pointer;
 
+}
+
+
+.container.active
+{
+    background-color: white;
+}
+
+.movie-list-title.active
+{
+    color: black;
+}
+
+.item-container h3.active
+{
+    color: black;
+}
+
+.navbar-container.active
+{
+    background-color: white;
+    color: black;
+}
+
+.sidebar.active
+{
+    background-color: white;
+    color: black;
+}
+
+.left-menu-icon.active
+{
+    color: black;
+
+}
+.toggle.active
+{
+    background-color: black;
+}
+
+.toggle-ball.active
+{
+    background-color: white;
+    transform: translateX(-20px);
+}
+
+.movie-list-title
+{
+
+    margin-left: 20px;
+}
+
+body.active
+{
+    background-color: white;
 }
