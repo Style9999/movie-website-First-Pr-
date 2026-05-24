@@ -97,6 +97,7 @@ position: relative;
     right: 1px;
     border-radius: 50%;
     cursor: pointer;
+    transition: 1s ease-in-out;
 }
 
 .toggle-icon
@@ -331,4 +332,12 @@ position: relative;
 body.active
 {
     background-color: white;
+}
+
+@media only screen and (max-width:940px)
+{
+    .menu-container
+    {
+        display: none;
+    }
 }
